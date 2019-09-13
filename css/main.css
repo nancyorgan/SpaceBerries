@@ -1,0 +1,58 @@
+
+#figure {
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    background-color: #f5e0e0;
+}
+
+#about {
+    position: relative;
+    width: 100vw;
+    height: 50vh; 
+    background-color: #fefeff;
+}
+
+#workwithme {
+    position: relative;
+    width: 100vw;
+    height: 75vh; 
+    background-color: #daf6ff;
+}
+
+#writings {
+    position: relative;
+    width: 100vw;
+    height: 90vh; 
+    background-color: #fefeff;
+}
+
+#otherart{
+    position: relative;
+    width: 100vw;
+    height: 90vh; 
+    background-color: #fefeff;
+}
+
+#meetup{
+    position: relative;
+    width: 100vw;
+    height: 90vh; 
+    background-color: navy;
+    /* background-image: url("/images/dvjstile.png"); */
+    /* background-size: 110%; */
+}
+
+#meetup, h2 {
+    color: white;
+}
+
+#meetupinterior {
+    position: absolute;
+    margin: 40px;
+    width: 90vw;
+    height: 80vh; 
+    /* background-color: white; */
+    /* opacity: 0.4; */
+}
+
