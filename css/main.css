@@ -1,77 +1,89 @@
 
-#figure {
-    position: relative;
-    width: 100vw;
-    height: 90vh;
-    background-color: #f5e0e0;
+h2 {
+    padding-left: 20px;
 }
+
+body {
+    background-color: #daeefc;
+    color: #1B1862;
+
+}
+
+.bg-light {
+    background-color: white!important
+}
+
+#nav-placeholder {
+    position: fixed;
+}
+
+.navbar-light:hover .navbar-nav:hover .nav-link:hover {
+    font-size: 20px;
+    color: #FC2230;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+    color: #1B1862;
+}
+
 
 #about {
+    position: static;
+    /* width: 100vw; */
+    height: 100vh;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+}
+
+.contentbox {
+    /* border: 1px solid gray; */
+    /* margin: 20px; */
+    padding: 20px;
+    flex: 1;
+    background: white;
+    border: 1px solid #1B1862;
+}
+
+#leaders {
     position: relative;
     width: 100vw;
-    height: 50vh; 
-    background-color: #fefeff;
+    height: 60vh;
+    padding: 20px;
 }
 
-#workwithme {
+#facilitators {
     position: relative;
     width: 100vw;
-    height: 75vh; 
-    background-color: #daf6ff;
-}
-
-#writings {
-    position: relative;
-    width: 100vw;
-    height: 90vh; 
-    background-color: #fefeff;
-}
-
-#otherart{
-    position: relative;
-    width: 100vw;
-    height: 90vh; 
-    background-color: #fefeff;
-}
-
-#meetup{
-    position: relative;
-    width: 100vw;
-    height: 90vh; 
-    background-color: navy;
-    /* background-image: url("/images/dvjstile.png"); */
-    /* background-size: 110%; */
-}
-
-#meetup, h2 {
-    color: white;
-}
-
-#meetupinterior {
-    position: absolute;
-    margin: 40px;
-    width: 90vw;
-    height: 80vh; 
-    /* background-color: white; */
-    /* opacity: 0.4; */
+    height: 60vh;
+    padding: 20px;
 }
 
 #people {
     position: relative;
     width: 100vw;
-    height: 100vh;
-    background-color: #f0f0f0;
+    height: 60vh;
+    padding: 20px;
 }
-
 
 .person {
     height: 390px;
     width: 300px;
-    background-color: "pink";
-    border: 1px solid gray;
+    background-color: white;
+    border: 1px solid #1B1862;
     margin: 20px;
     position: relative;
     float: left;
+}
+
+.person.seattle {
+    /* border: 1px solid #FC2230; */
+}
+
+.person.montreal {
+    /* border: 1px solid #1B1862; */
 }
 
 .person img {
@@ -88,6 +100,5 @@
 
 .bio {
     margin: 15px;
-    color: gray;
 }
 
