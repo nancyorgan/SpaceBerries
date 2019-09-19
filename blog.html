@@ -8,19 +8,32 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+
+
 </head>
 
 <body>
-    <div id="nav-placeholder"></div>
-    <script>
-        $(function () {
-            $("#nav-placeholder").load("navbar.html")
-        })
-    </script>
-
     <div id="figure">
-    </div>
+        <div>
+            <div class="lang" id="English">English</div>
+            <div class="lang" id="Francais">Francais</div>
+        </div>
+        
+            <div class="en">Nancy is strong!</div>
+            <div class="fr">Mais Gaby est encore plus fort!</div>
 
-
+            <script>
+                $("#English").click(function () {
+                    $(".en").css("display", "unset")
+                    $(".fr").css("display", "none")
+                })
+                $("#Francais").click(function () {
+                    $(".en").css("display", "none")
+                    $(".fr").css("display", "unset")
+                })
+            </script>
+        </div>
 </body>
+
 </html>

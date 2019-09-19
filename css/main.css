@@ -10,6 +10,11 @@ body {
     font-family: 'Assistant', sans-serif;
 }
 
+#figure {
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
 h2 {
     font-family: 'Reem Kufi', sans-serif;
 
@@ -18,12 +23,15 @@ h2 {
 .bg-light {
     /* background-color: white!important */
     background-color: #1B1862!important;
+    z-index: 2;
 }
 
 #nav-placeholder {
     position: fixed;
-    transform: translateY(120px);
-    box-shadow: 1px -1px 20px 7px #daeefc
+    /* transform: translateY(120px); */
+    box-shadow: 1px -1px 20px 7px #daeefc;
+    z-index: 2;
+
 }
 
 .navbar-light:hover .navbar-nav:hover .nav-link:hover {
@@ -36,9 +44,13 @@ h2 {
     color: white;
 }
 
+.navbar-toggler-icon {
+    background-color:#daeefc
+}
+
 #about {
     position: static;
-    padding-top: 220px;
+    padding-top: 100px;
     padding-left: 50px;
     padding-right: 50px;
     /* font-size: 20px; */
@@ -49,6 +61,7 @@ h2 {
     background: white;
     border: 1px solid #1B1862;
     margin-bottom:50px;
+    box-shadow: 1px 1px 5px 0px #1B1862
 }
 
 #sponsors {
@@ -58,6 +71,7 @@ h2 {
 #people {
     display: flex;
     flex-direction: column;
+    padding-top:20px;
 }
 
 #people h2 {
@@ -87,6 +101,7 @@ h2 {
     position: relative;
     float: left;
     overflow-y: scroll;
+    box-shadow: 1px 1px 5px 0px #1B1862
 }
 
 .person img {
@@ -105,15 +120,34 @@ h2 {
     padding: 15px;
 }
 
+.bio .name {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
 #footer-placeholder {
-    padding-top: 30px;
-    /* border: 1px solid #1B1862; */
+    /* padding-top: 30px; */
+    /* height: 30px; */
 }
 
 #footer {
-    padding-top:30px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
     text-align: center;
-    padding-bottom:30px;
     background: #1B1862;
-    color: #daeefc;
+    color: white;
+}
+
+.lang:hover{
+    color: #FC2230;
+    cursor: pointer;
+}
+
+.en {
+    display: normal;
+}
+
+.fr {
+    display: none;
 }
