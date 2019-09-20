@@ -23,6 +23,18 @@
             $("#nav-placeholder").load("navbar.html")
         })
     </script>
+            <div class="lang" id="English">English</div>
+            <div class="lang" id="Francais">Francais</div>
+            <script>
+                    $("#English").click(function () {
+                        $(".en").css("display", "unset")
+                        $(".fr").css("display", "none")
+                    })
+                    $("#Francais").click(function () {
+                        $(".en").css("display", "none")
+                        $(".fr").css("display", "unset")
+                    })
+                </script>
     <div id="people">
         <div id="leaders">
             <br><br><br>
@@ -31,18 +43,34 @@
                 <img src="images/portrait.png">
                 <div class="bio">
                     <div class="name">Nancy Organ </br> Founder and Seattle Organizer</div><br>
-                    Nancy started DVJS in June 2016 to create a space for the nascent data vis commuity to come together. She studied Statistics and Biology at UC Berkeley and started her career in Medical research. 
+                    Nancy started DVJS in June 2016 to create a space for the nascent data vis commuity to come
+                    together. She studied Statistics and Biology at UC Berkeley and started her career in Medical
+                    research.
                 </div>
             </div>
 
             <div class="person montreal">
-                <img src="images/flag.png">
+                <img src="images/JessicaRenaudProfile.jpg">
                 <div class="bio">
-                        <div class="name">Jess Renaud </br>Montreal Organizer</div>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                    <div class="name">Jessica Renaud </br>Ambassador in Chief, Montreal</div>
+                    <div class="en">
+                            <br>
+                        Torn between her love of numbers and the visual arts for (almost) ever, Jessica has been able to
+                        reconcile her two passions with data visualization. For the past two years, she has been working
+                        to promote the subject in Montreal, as Ambassador in Chief of the Data Viz Jam Session, and
+                        through her involvement in various conferences and workshops. Jessica has a master’s degree in
+                        economics and currently works as a BI Analyst.
+                        <a href="https://public.tableau.com/profile/gros.data#!/">See her work here.</a>
+                    </div>
+                    <div class="fr">
+                        <br>
+                        Déchirée entre son amour pour les chiffres et les arts visuels depuis (presque)toujours, Jessica
+                        a pu réconcilier ses deux passions grâce à la visualisation de données. Depuis deux ans, elle
+                        travaille à faire connaître le sujet à Montréal, en tant qu’Ambassadrice en Chef des Data Viz
+                        Jam Session, ainsi que et par son implication dans diverses conférences et ateliers. Jessica est
+                        titulaire d'une maîtrise en économie et travaille actuellement en tant qu'analyste BI.
+                    </div>
+
                 </div>
             </div>
         </div>
