@@ -11,6 +11,8 @@ body {
 }
 body b {
     font-weight: 700;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 14pt;
 }
 
 #figure {
@@ -18,7 +20,7 @@ body b {
     padding-left: 50px;
 }
 
-h2 {
+h2, h4 {
     font-family: 'Reem Kufi', sans-serif;
 
 }
