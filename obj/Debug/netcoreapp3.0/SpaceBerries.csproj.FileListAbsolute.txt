@@ -1,0 +1,11 @@
+/Users/nancyorgan/Documents/SpaceBerries/bin/Debug/netcoreapp3.0/SpaceBerries
+/Users/nancyorgan/Documents/SpaceBerries/bin/Debug/netcoreapp3.0/SpaceBerries.deps.json
+/Users/nancyorgan/Documents/SpaceBerries/bin/Debug/netcoreapp3.0/SpaceBerries.runtimeconfig.json
+/Users/nancyorgan/Documents/SpaceBerries/bin/Debug/netcoreapp3.0/SpaceBerries.runtimeconfig.dev.json
+/Users/nancyorgan/Documents/SpaceBerries/bin/Debug/netcoreapp3.0/SpaceBerries.dll
+/Users/nancyorgan/Documents/SpaceBerries/bin/Debug/netcoreapp3.0/SpaceBerries.pdb
+/Users/nancyorgan/Documents/SpaceBerries/obj/Debug/netcoreapp3.0/SpaceBerries.csprojAssemblyReference.cache
+/Users/nancyorgan/Documents/SpaceBerries/obj/Debug/netcoreapp3.0/SpaceBerries.AssemblyInfoInputs.cache
+/Users/nancyorgan/Documents/SpaceBerries/obj/Debug/netcoreapp3.0/SpaceBerries.AssemblyInfo.cs
+/Users/nancyorgan/Documents/SpaceBerries/obj/Debug/netcoreapp3.0/SpaceBerries.dll
+/Users/nancyorgan/Documents/SpaceBerries/obj/Debug/netcoreapp3.0/SpaceBerries.pdb
