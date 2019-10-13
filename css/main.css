@@ -3,10 +3,6 @@ body {
     background-color: #daeefc;
     color: #1B1862;
     font-size: 12pt;
-    /* font-family: 'Darker Grotesque', sans-serif; */
-    /* font-family: 'Arsenal', sans-serif; */
-    /* font-family: 'Athiti', sans-serif; */
-    /* font-family: 'Pavanam', sans-serif; */
     font-family: 'Assistant', sans-serif;
 }
 body b {
@@ -26,14 +22,12 @@ h2, h4 {
 }
 
 .bg-light {
-    /* background-color: white!important */
     background-color: #1B1862!important;
     z-index: 2;
 }
 
 #nav-placeholder {
     position: fixed;
-    /* transform: translateY(120px); */
     box-shadow: 1px -1px 20px 7px #daeefc;
     z-index: 2;
 
@@ -132,11 +126,6 @@ h2, h4 {
     font-family: 'Reem Kufi', sans-serif;
     font-size: 18px;
     text-align: center;
-}
-
-#footer-placeholder {
-    /* padding-top: 30px; */
-    /* height: 30px; */
 }
 
 #footer {
