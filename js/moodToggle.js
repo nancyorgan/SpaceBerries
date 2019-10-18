@@ -39,6 +39,7 @@ var makeDark = function () {
     $(".contentbox").css("background", "#0e0d33")
     $(".contentbox").css("box-shadow", "1px 1px 5px 0px #daeefc")
     $(".person").css("background", "#0e0d33")
+    $(".person").css("box-shadow", "1px 1px 5px 0px #daeefc")
     $("#nav-placeholder").css("box-shadow", "1px -1px 20px 7px #1B1862")
     $(".bg-light").css("background-color", "#0e0d33")
     $("#footer").css("background", "#0e0d33")
