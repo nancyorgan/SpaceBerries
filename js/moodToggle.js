@@ -1,13 +1,35 @@
-var mode = "light";
-var moodToggle = function () {
-    console.log("Swap!")
-    if (mode == "light") {
-        makeDark();
+function readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
     }
-    else if (mode == "dark") {
-        makeLight();
-    }
+    return null;
 }
+
+
+console.log(readCookie("name"));
+
+// document.cookie = "name=light"
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+
+var moodToggle = function () {
+    if (readCookie("name") == "light") {
+        makeDark();
+        document.cookie = "name=dark"
+    }
+    else if (readCookie("name") == "dark") {
+        makeLight();
+        document.cookie = "name=light"
+    }
+    console.log(readCookie("name"))
+}
+
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
 
 var makeDark = function () {
     // $("#moodToggle").removeClass("").addClass("")
@@ -20,7 +42,6 @@ var makeDark = function () {
     $("#nav-placeholder").css("box-shadow", "1px -1px 20px 7px #1B1862")
     $(".bg-light").css("background-color", "#0e0d33")
     $("#footer").css("background", "#0e0d33")
-    mode = "dark"
 }
 
 var makeLight = function () {
@@ -34,5 +55,15 @@ var makeLight = function () {
     $("#nav-placeholder").css("box-shadow", "1px -1px 20px 7px #daeefc")
     $(".bg-light").css("background-color", "#1B1862")
     $("#footer").css("background", "#1B1862")
-    mode = "light"
 }
+
+var verifyDark = function(){
+    if(readCookie("name") == null){
+        document.cookie = "name=light";
+    }
+    else if(readCookie("name") == "dark"){
+        makeDark();
+    }
+}
+
+verifyDark();

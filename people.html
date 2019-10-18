@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/navbar.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/moodToggle.js"></script>
+
 
     <link
         href="https://fonts.googleapis.com/css?family=Arsenal|Assistant|Athiti|Black+And+White+Picture|Coda+Caption:800|Darker+Grotesque|Encode+Sans|Krona+One|Molengo|Nobile|Pavanam|Ramabhadra|Reem+Kufi|Thasadith&display=swap"
@@ -23,7 +25,10 @@
             $("#nav-placeholder").load("navbar.html")
         })
     </script>
-            <div class="lang" id="English">English</div>
+    <script>
+        verifyDark();
+    </script>
+            <!-- <div class="lang" id="English">English</div>
             <div class="lang" id="Francais">Francais</div>
             <script>
                     $("#English").click(function () {
@@ -34,7 +39,7 @@
                         $(".en").css("display", "none")
                         $(".fr").css("display", "unset")
                     })
-                </script>
+                </script> -->
     <div id="people">
         <div id="leaders">
             <br><br><br>
