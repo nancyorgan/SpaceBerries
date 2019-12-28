@@ -133,6 +133,11 @@ h2, h4 {
     text-align: center;
 }
 
+.bio .portfolio {
+    text-align: center;
+    font-weight: 200;
+}
+
 #footer {
     padding-top: 10px; 
     padding-bottom: 10px; 
